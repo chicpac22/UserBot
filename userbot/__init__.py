@@ -49,9 +49,9 @@ if CONFIG_CHECK:
     quit(1)
 
 
-API_KEY = os.environ.get("API_KEY", 959494)
+API_KEY = os.environ.get("API_KEY", "959494")
 
-API_HASH = os.environ.get("API_HASH", ae3fd373a4d2773a2bb7cb14741d1874)
+API_HASH = os.environ.get("API_HASH", "ae3fd373a4d2773a2bb7cb14741d1874")
 
 STRING_SESSION = os.environ.get("STRING_SESSION", None)
 
